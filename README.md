@@ -1,6 +1,10 @@
 # V2Switcher
 极简V2Ray配置切换器
 
+V2Ray的Windows客户端实在是太糟糕了，直接用Core还不方便，尤其是你有很多线路的时候。
+
+所以我写了这个切换器方便自己也方便各位使用多条线路的dalao使用。
+
 ![运行效果](https://i.loli.net/2017/11/12/5a07f18482120.jpg)
 
 ## 开发环境
@@ -23,3 +27,5 @@ VisualStudio 2017 + .Net Framework 4.5.2
 2. 程序会读取Inbound中的Port组合成设置代理的字符串，务必保持该项存在。
 3. 目前只支持V2Ray-Core开放出来的http代理设置，不支持socks。
 4. 个人建议保持所有配置项的Inbound.Port一致，实测Chrome等浏览器换端口的话都不是实时生效，要卡一阵才能切到新代理地址。
+5. 本程序同时支持无界面的wv2ray和命令行窗口的v2ray，有wv2ray的情况下会优先使用无窗口的wv2ray
+
