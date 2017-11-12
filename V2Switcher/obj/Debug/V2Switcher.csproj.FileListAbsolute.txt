@@ -1,0 +1,9 @@
+D:\workspace\V2Switcher\V2Switcher\bin\Debug\V2Switcher.exe.config
+D:\workspace\V2Switcher\V2Switcher\bin\Debug\V2Switcher.exe
+D:\workspace\V2Switcher\V2Switcher\bin\Debug\V2Switcher.pdb
+D:\workspace\V2Switcher\V2Switcher\obj\Debug\V2Switcher.csprojResolveAssemblyReference.cache
+D:\workspace\V2Switcher\V2Switcher\obj\Debug\V2Switcher.csproj.GenerateResource.Cache
+D:\workspace\V2Switcher\V2Switcher\obj\Debug\V2Switcher.exe
+D:\workspace\V2Switcher\V2Switcher\obj\Debug\V2Switcher.pdb
+D:\workspace\V2Switcher\V2Switcher\obj\Debug\V2Switcher.Properties.Resource.resources
+D:\workspace\V2Switcher\V2Switcher\bin\Debug\Newtonsoft.Json.dll
