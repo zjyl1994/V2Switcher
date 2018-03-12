@@ -1,17 +1,19 @@
 ﻿using Microsoft.Win32;
 using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+using System.Runtime.InteropServices;
 
 namespace V2Switcher
 {
     class ProxyManager
     {
+        // 刷新代理设置
+        [DllImport("wininet.dll")]
+        public static extern bool InternetSetOption(IntPtr hInternet, int dwOption, IntPtr lpBuffer, int dwBufferLength);
+        public const int INTERNET_OPTION_SETTINGS_CHANGED = 39;
+        public const int INTERNET_OPTION_REFRESH = 37;
+        bool settingsReturn, refreshReturn;
+
         private static ProxyManager uniqueInstance; // 单例句柄
 
         private Config current; // 当前配置
@@ -72,6 +74,9 @@ namespace V2Switcher
                     internetSetting.SetValue("ProxyEnable", 0, RegistryValueKind.DWord);
                 }
                 internetSetting.Close();
+                // 刷新代理设置
+                settingsReturn = InternetSetOption(IntPtr.Zero, INTERNET_OPTION_SETTINGS_CHANGED, IntPtr.Zero, 0);
+                refreshReturn = InternetSetOption(IntPtr.Zero, INTERNET_OPTION_REFRESH, IntPtr.Zero, 0);
             }
         }
     }

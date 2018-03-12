@@ -7,3 +7,12 @@ D:\workspace\V2Switcher\V2Switcher\obj\Debug\V2Switcher.exe
 D:\workspace\V2Switcher\V2Switcher\obj\Debug\V2Switcher.pdb
 D:\workspace\V2Switcher\V2Switcher\obj\Debug\V2Switcher.Properties.Resource.resources
 D:\workspace\V2Switcher\V2Switcher\bin\Debug\Newtonsoft.Json.dll
+D:\needtotest\V2Switcher\V2Switcher\bin\Debug\V2Switcher.exe.config
+D:\needtotest\V2Switcher\V2Switcher\obj\Debug\V2Switcher.exe
+D:\needtotest\V2Switcher\V2Switcher\obj\Debug\V2Switcher.pdb
+D:\needtotest\V2Switcher\V2Switcher\obj\Debug\V2Switcher.csprojResolveAssemblyReference.cache
+D:\needtotest\V2Switcher\V2Switcher\obj\Debug\V2Switcher.Properties.Resource.resources
+D:\needtotest\V2Switcher\V2Switcher\obj\Debug\V2Switcher.csproj.GenerateResource.Cache
+D:\needtotest\V2Switcher\V2Switcher\bin\Debug\V2Switcher.exe
+D:\needtotest\V2Switcher\V2Switcher\bin\Debug\V2Switcher.pdb
+D:\needtotest\V2Switcher\V2Switcher\bin\Debug\Newtonsoft.Json.dll
