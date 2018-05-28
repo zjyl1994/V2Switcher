@@ -16,7 +16,7 @@ namespace V2Switcher
         public Config(string configName)
         {
             configPath = configName+".json";
-            proxyAddr = JObject.Parse(File.ReadAllText(configPath)).SelectToken("inbound.protocol").ToString() + "127.0.0.1:" + JObject.Parse(File.ReadAllText(configPath)).SelectToken("inbound.port").ToString();
+            proxyAddr = JObject.Parse(File.ReadAllText(configPath)).SelectToken("inbound.protocol").ToString() + "=127.0.0.1:" + JObject.Parse(File.ReadAllText(configPath)).SelectToken("inbound.port").ToString();
             proxyName = configName;
         }
         public string Filename {
